@@ -1,0 +1,97 @@
+[
+  {
+    "name": "HTML5",
+    "image": "/assets/techs/html.png"
+  },
+  {
+    "name": "CSS3",
+    "image": "/assets/techs/css.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/assets/techs/js.png"
+  },
+  {
+    "name": "PHP",
+    "image": "/assets/techs/php.png"
+  },
+  {
+    "name": "Git",
+    "image": "/assets/techs/git.png"
+  },
+  {
+    "name": "Github",
+    "image": "/assets/techs/github.png"
+  },
+  {
+    "name": "SASS",
+    "image": "/assets/techs/sass.png"
+  },
+  {
+    "name": "TailwindCSS",
+    "image": "/assets/techs/Tailwind-img.png"
+  },
+  {
+    "name": "React",
+    "image": "/assets/techs/react.png"
+  },
+  {
+    "name": "Vue",
+    "image": "/assets/techs/vue.svg"
+  },
+  {
+    "name": "NPM",
+    "image": "/assets/techs/1200px-Npm-logo.svg.png"
+  },
+  {
+    "name": "Composer",
+    "image": "/assets/techs/composer.png"
+  },
+  {
+    "name": "Laravel",
+    "image": "/assets/techs/laravel.png"
+  },
+  {
+    "name": "NodeJS",
+    "image": "/assets/techs/node.png"
+  },
+  {
+    "name": "ExpressJS",
+    "image": "/assets/techs/express.png"
+  },
+  {
+    "name": "NextJS",
+    "image": "/assets/techs/next.png"
+  },
+  {
+    "name": "MYSQL",
+    "image": "/assets/techs/mysql.png"
+  },
+  {
+    "name":"PostgreSQL",
+    "image": "/assets/techs/postgresql.png"
+  },
+  {
+    "name": "MongoDB",
+    "image": "/assets/techs/mongo.png"
+  },
+  {
+    "name": "Firabase",
+    "image": "/assets/techs/firebase.png"
+  },
+  {
+    "name": "PostMan",
+    "image": "/assets/techs/postman.png"
+  },
+  {
+    "name": "Socket.io",
+    "image": "/assets/techs/Socket-io.svg"
+  },
+  {
+    "name": "Astro",
+    "image": "/assets/astro-logo-B3B4DABB0A-seeklogo.com.png"
+  },
+  { "name": "Photoshop", "image": "/assets/techs/ps.png" },
+  { "name": "Illustrator", "image": "/assets/techs/il.png" },
+  { "name": "Figma", "image": "/assets/techs/figma.png" }
+]

@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/react/Navbar.jsx'
+import NavItem from '../components/NavItem.astro'
+
+import Home from '../components/Home.astro'
+import About from '../components/About.astro'
+import Experiencie from '../components/Experiencie.astro'
+import Technologies from '../components/Technologies.astro'
+import Projects from '../components/Projects.astro'
+import Contact from '../components/Contact.astro'
+---
+
+<Layout title='Welcome to my Portfolio'>
+  <Navbar client:idle>
+    <!-- links -->
+    <ul
+      class='hidden tablet:flex w-fit items-center justify-center px-2'
+      slot='links'
+    >
+      <NavItem to='#home'>Inicio</NavItem>
+      <NavItem to='#about'>Sobre mi</NavItem>
+      <NavItem to='#experiencie'>Experiencia Profesional</NavItem>
+      <NavItem to='#techs'>Tecnologias</NavItem>
+      <NavItem to='#projects'>Proyectos</NavItem>
+      <NavItem to='#contact'>Contactame</NavItem>
+    </ul>
+  </Navbar>
+</Layout>
+
+<main class='flex flex-col items-center min-h-screen mx-auto'>
+  <!-- Home -->
+  <Home />
+
+  <!-- About -->
+  <About />
+
+  <!-- Professional Expriencie -->
+  <Experiencie />
+
+  <!-- techs -->
+  <Technologies />
+
+
+  <!-- Projects -->
+  <Projects />
+
+  <!-- Projects -->
+  <Contact />
+</main>
+
+<style></style>

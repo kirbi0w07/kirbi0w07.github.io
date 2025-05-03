@@ -1,0 +1,19 @@
+---
+interface Props {
+  to: string
+}
+
+const { to } = Astro.props
+---
+
+<li
+  class='xs:bg-red-500 mx-4 py-2 font-inter font-semibold text-2xl tablet-lg:text-3xl text-slate-700'
+>
+  <a
+    class='hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br hover:from-indigo-600 hover:to-pink-500'
+    href={to}
+    ><slot />
+  </a>
+</li>
+
+<style></style>
