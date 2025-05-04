@@ -10,6 +10,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: 'https://kirbi0w07.github.io',
-  base: 'my-portfolio',
 });
 
